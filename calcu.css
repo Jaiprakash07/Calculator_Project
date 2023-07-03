@@ -1,0 +1,85 @@
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(243, 249, 255);
+}
+
+.parent {
+    width: 400px;
+    height: 600px;
+    text-align: center;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 80px;
+    padding: 10px;
+    padding-top: 80px;
+    background-color: rgb(48, 65, 92);
+}
+
+.calhead .heading{
+    border-radius: 10px;
+    font-size: 30px;
+    text-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    background: transparent;
+}
+
+.input {
+    width: 85%;
+    height: 45px;
+    border: 2px solid black;
+    border: 2px solid;
+    text-align: right;
+    font-size: 20px;
+    padding-right: 10px;
+    margin: 15px;
+}
+
+.btn {
+    width: 60px;
+    height: 55px;
+    border: 2px ;
+    border-radius: 5px;
+    color: whitesmoke;
+    border: 2px solid rgb(48, 65, 92);
+    background-color: rgb(52, 63, 82);
+    box-shadow: -8px -8px 12px rgb(129, 144, 150); 
+    margin: 5px;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.button:hover {
+    box-shadow: -8px -8px 12px rgb(163, 184, 196);
+}
+
+.button:active {
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    border: 2px solid rgb(52, 63, 82);
+}
+
+.two {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+.buttons {
+    width: 173px;
+    height: 55px;
+    margin: 5px;
+    border: 2px;
+    border-radius: 5px;
+    color: whitesmoke;
+    border: 2px solid rgb(48, 65, 92);
+    background-color: rgb(52, 63, 82);
+    box-shadow: -8px -8px 12px rgb(129, 144, 150); 
+    font-size: 20px;
+}
+
