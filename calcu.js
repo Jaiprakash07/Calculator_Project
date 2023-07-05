@@ -1,5 +1,5 @@
 console.log('CALCULATOR');
-
+console.log('jai/local/demo')
 //program of calculator
 
 
